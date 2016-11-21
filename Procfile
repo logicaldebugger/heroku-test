@@ -1,1 +1,1 @@
-web: mvn spring-boot:run -Dspring.profiles.active="dev"
+java -Dserver.port=$PORT $JAVA_OPTS -jar target*.jar
