@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HomeController {
-	@RequestMapping(path={"/", ""})
+	@RequestMapping(value={"/", ""})
 	public ModelAndView index(Model model) {
 		System.out.println("here");
 		return new ModelAndView("index");
